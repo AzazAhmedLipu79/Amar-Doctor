@@ -1,0 +1,22 @@
+.slider-area {
+  height: 80vh;
+}
+.slider-img {
+  /* filter: blur(2px); */
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+  border-radius: 10px;
+}
+
+.slider-card {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(50px);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  border-top: 4px solid #3fbbc0;
+  border-bottom: 4px solid #3fbbc0;
+  color: gray;
+}

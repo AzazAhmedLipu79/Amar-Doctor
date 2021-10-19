@@ -1,0 +1,17 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.bg-bluefish {
+  background-color: #3b5998;
+}
+.login-area {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(50px);
+}
+.login-main {
+  background-color: rgba(255, 255, 255, 0.1);
+}
