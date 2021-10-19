@@ -9,6 +9,8 @@ import Notfound from "./Component/SharedSection/404/Notfound";
 import AuthProvider from "./Context/AuthProvider";
 import Services from "./Component/SharedSection/Services/Services";
 import Service from "./Component/SharedSection/Service/Service";
+import Form from "./Component/Pages/Form/Form";
+import DoctorSay from "./Component/Pages/DoctorSay/DoctorSay";
 function App() {
   return (
     <div className="App">
@@ -24,6 +26,12 @@ function App() {
             </Route>
             <Route exact path="/Service/:id">
               <Service></Service>
+            </Route>
+            <Route exact path="/DoctorSays">
+              <DoctorSay></DoctorSay>
+            </Route>
+            <Route exact path="/Contact">
+              <Form></Form>
             </Route>
             <Route exact path="/Login">
               <Login></Login>

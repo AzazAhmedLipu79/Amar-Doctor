@@ -12,7 +12,7 @@ const Services = () => {
 
   return (
     <div className="container p-5">
-      <h2>This is services</h2>
+      <h2 className="fw-bold   px-1 rounded ">Our Services :</h2>
       {/* map the json */}
 
       <Row xs={1} md={3} className="g-4">

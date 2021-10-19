@@ -7,29 +7,25 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer-left col-md-4 col-sm-6">
           <p className="about">
-            <span> About the company</span> Ut congue augue non tellus bibendum,
-            in varius tellus condimentum. In scelerisque nibh tortor, sed
-            rhoncus odio condimentum in. Sed sed est ut sapien ultrices
-            eleifend. Integer tellus est, vehicula eu lectus tincidunt,
-            ultricies feugiat leo. Suspendisse tellus elit, pharetra in
-            hendrerit ut, aliquam quis augue. Nam ut nibh mollis, tristique ante
-            sed, viverra massa.
+            <span> Amar Doctor: </span>Amar Doctoe is a branch of medicine
+            dealing with disorders of the heart. The field includes medical
+            diagnosis and treatment of congenital heart defects, coronary artery
+            disease, heart failure, valvular heart disease and
+            electrophysiology.
           </p>
           <div className="icons">
             <a href="/Home">
-              <i className="fa fa-facebook"></i>
+              <i className="fab fa-facebook"></i>
             </a>
             <a href="/Home">
-              <i className="fa fa-twitter"></i>
+              <i className="fab fa-twitter-square"></i>
             </a>
             <a href="/Home">
-              <i className="fa fa-linkedin"></i>
+              <i className="fab fa-youtube"></i>
             </a>
+
             <a href="/Home">
-              <i className="fa fa-google-plus"></i>
-            </a>
-            <a href="/Home">
-              <i className="fa fa-instagram"></i>
+              <i className="fab fa-instagram-square"></i>
             </a>
           </div>
         </div>
@@ -37,7 +33,7 @@ const Footer = () => {
           <div>
             <i className="fa fa-map-marker"></i>
             <p>
-              <span> Street name and number</span> City, Country
+              <span> 6/5 Noahkhali</span> Noahkhali Division, Mars
             </p>
           </div>
           <div>
@@ -47,7 +43,7 @@ const Footer = () => {
           <div>
             <i className="fa fa-envelope"></i>
             <p>
-              <a href="/Home"> office@company.com</a>
+              <a href="/Home"> admin@amar-doctor@gmail.com</a>
             </p>
           </div>
         </div>
@@ -61,7 +57,7 @@ const Footer = () => {
             <a href="/Home"> News</a> |<a href="/Home"> Contact</a>
             <a href="/Home"> Home</a> |<a href="/Home"> About</a> |
           </p>
-          <p className="name"> Company Name &copy; 2021</p>
+          <p className="name"> Amar Doctor &copy; 2021</p>
         </div>
       </footer>
     </div>

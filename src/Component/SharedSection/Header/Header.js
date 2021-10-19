@@ -14,7 +14,7 @@ const Header = () => {
             <Navbar.Brand href="">
               <img
                 alt=""
-                src="https://i.ibb.co/WPZvVBF/file-ai-1.png"
+                src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/wbvkod4mhwryj9ce42vo"
                 height="50"
                 className="d-inline-block align-top"
               />
@@ -24,11 +24,18 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto fw-bold ">
               <Nav.Link>
-                <Link to="/Services">Services </Link>
+                {" "}
+                <Link to="/Services"> Services</Link>
               </Nav.Link>
 
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link>
+                {" "}
+                <Link to="/DoctorSays"> DoctorSays</Link>
+              </Nav.Link>
+              <Nav.Link>
+                {" "}
+                <Link to="/Contact"> Contact</Link>
+              </Nav.Link>
             </Nav>
             <Nav>
               {user.photoURL && (

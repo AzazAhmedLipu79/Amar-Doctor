@@ -8,6 +8,9 @@
 .text-white {
   color: #fff;
 }
+Link {
+  color: #fff;
+}
 .button-regular {
   position: relative;
   display: inline-block;

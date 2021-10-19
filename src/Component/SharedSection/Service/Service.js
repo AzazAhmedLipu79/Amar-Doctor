@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 
 const Service = () => {
@@ -9,45 +9,45 @@ const Service = () => {
 
   const [singleService, setSingleService] = useState({});
 
-  //  data load howa
+  //  Load fakedata
   useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/Programming-Hero-Web-Course3/healthcare-related-website-ahsanlisan/master/public/service.json?token=AUU362FD5OMVRNACHK7CGHDBN2RPA"
-    )
+    fetch("./singleService.json")
       .then((res) => res.json())
-      .then((data) => setServiceDetails(data.service));
+      .then((data) => setServiceDetails(data));
   }, []);
 
-  // call hbe jokon amar shob data load hye state e set hbe
+  //Load single data
   useEffect(() => {
-    const foundService = serviceDetails.find((service) => service?.id === id);
+    // eslint-disable-next-line eqeqeq
+    const foundService = serviceDetails.find((service) => service?.id == id);
     setSingleService(foundService);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [serviceDetails]);
 
   return (
-    <div>
-      <h1>{id}</h1>
-      {console.log(singleService)}
-      {/* <h2> {singleService?.name}</h2> */}
+    <div className="container-fluid py-5 px-3">
       <Container>
-        <Row>
-          <Col md={4}>
-            <Card>
-              <Card.Img variant="top" src={singleService?.imgurl} />
-            </Card>
-          </Col>
-          <Col md={5}>
-            <Card style={{ width: "18rem" }}>
-              <Card.Body>
-                <Card.Title>{singleService?.name}</Card.Title>
-                <Card.Text>
-                  <b> Email : {singleService?.shortintro}</b>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+        <Card>
+          <Card.Img
+            variant="top"
+            src={singleService?.imgurl}
+            alt="Card image"
+          />
+          <Card.Body>
+            <Card.Title>{singleService?.name}</Card.Title>
+            <Card.Text>
+              <h6>{singleService?.shortintro}</h6>
+            </Card.Text>
+            <input
+              className="btn button-regular"
+              type="button"
+              value="Back"
+              onClick={() => {
+                window.history.back();
+              }}
+            />
+          </Card.Body>
+        </Card>
       </Container>
     </div>
   );
