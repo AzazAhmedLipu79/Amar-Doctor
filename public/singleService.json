@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Orthopaedics",
+    "shortintro": "Orthopaedics focuses on injuries and diseases of the body’s musculoskeletal system. This includes bones, joints, ligaments, tendons, muscles and nerves.",
+    "imgurl": "http://www.candoverclinic.com/wp-content/uploads/2018/05/Orthopaedics.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cardiology",
+    "shortintro": "Cardiology is a branch of medicine dealing with disorders of the heart. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology.",
+    "imgurl": "http://www.candoverclinic.com/wp-content/uploads/2021/07/cardiology.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ophthalmology",
+    "shortintro": "Ophthalmology is the study of the anatomy, physiology and diseases of the eye. It deals with the diagnosis, treatment and prevention of diseases of the eye.",
+    "imgurl": "http://www.candoverclinic.com/wp-content/uploads/2021/07/Ophthalmology.jpg"
+  },
+   
+  {
+    "id": 4,
+    "name": "Gastroenterology",
+    "shortintro": "Gastroenterology deals with disorders of the stomach and intestines. Candover will diagnose and manage these conditions while striving to maintain normal life and work patterns for patients.",
+    "imgurl": "http://www.candoverclinic.com/wp-content/uploads/2018/04/gastrointestinal-tract-main-image.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Hepatobiliary & Pancreatic",
+    "shortintro": "Hepatobiliary is the investigation and treatments of disorders of the liver, gallbladder, biliary trea and pancreas.",
+    "imgurl": "http://www.candoverclinic.com/wp-content/uploads/2018/05/hepatobiliary-pancreatic.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Gynaecology & Women’s Health",
+    "shortintro": "The Gynaecology facility at Candover Clinic provides health care for conditions affecting the female reproductive system. Gynaecology is the study of the female reproductive systems.",
+    "imgurl": "http://www.candoverclinic.com/wp-content/uploads/2018/05/womens.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Private GP",
+    "shortintro": "Rapid access to general practice appointments offering advice and medical services on all common ailments.",
+    "imgurl": "http://www.candoverclinic.com/wp-content/uploads/2018/05/gps.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Spine & Spinal Cord",
+    "shortintro": "The spinal cord is made up of a large amount of nerves, these are an extension of the brain. Messages are carried from our brain to our body via these nerves.",
+    "imgurl": "http://www.candoverclinic.com/wp-content/uploads/2018/05/spine.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Rheumatology",
+    "shortintro": "Rheumatology is the study and treatment of rheumatism, osteoarthritis and other disorders concerning the joints, muscles and ligaments.",
+    "imgurl": "http://www.candoverclinic.com/wp-content/uploads/2018/05/rheumatology.jpg"
+  }
+]
