@@ -11,9 +11,7 @@ const Service = () => {
 
   //  Load fakedata
   useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/Programming-Hero-Web-Course3/healthcare-related-website-ahsanlisan/master/public/singleService.json?token=AUU362G5G4YH6IJU36HWNZ3BN3OLO"
-    )
+    fetch("/singleService.json")
       .then((res) => res.json())
       .then((data) => setServiceDetails(data));
   }, []);
