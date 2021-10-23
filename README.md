@@ -6,9 +6,7 @@
 
 ## Features
 
-Link : firebase :https://amar-doctor-dev.web.app/
-netlify:https://amar-doctor.netlify.app/
-github :https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-ahsanlisan
+Link : firebase :https://amar-doctor-dev.web.app/ 
 
 - React Firebase Router App
 - Fuctional Component
