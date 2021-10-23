@@ -4,9 +4,7 @@
 
 [![N|Solid](https://www.programming-hero.com/assets/img/hero-header/iphone/programming-hero-logo.png)](https://web.programming-hero.com/)
 
-## Features
-
-Link : firebase :https://amar-doctor-dev.web.app/ 
+## Features 
 
 - React Firebase Router App
 - Fuctional Component
